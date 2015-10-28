@@ -7,7 +7,7 @@ header:
 prereqs:
   runtime:
     requires:
-      - perl: 5.016000
+      - perl: 5.010001
 
 plugins:
   - +config: Author::CSSON

@@ -24,7 +24,7 @@ my %module_build_args = (
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "perl" => "5.016000"
+    "perl" => "5.010001"
   },
   "script_files" => [],
   "test_requires" => {
