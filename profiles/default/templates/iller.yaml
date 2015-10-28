@@ -1,0 +1,30 @@
+---
+doctype: dist
+
+header:
+  name: {{ $dist->name }}
+  author:
+{{ join "\n" => map { "    - $_" } @{ $dist->authors} }}
+  license: Perl_5
+  copyright_holder: {{ $dist->copyright_holder }}
+  copyright_year: {{ (localtime)[5] + 1900 }}
+
+prereqs:
+  runtime:
+    requires:
+      - perl: 5.016000
+
+plugins:
+  - +config: Author::CSSON
+  
+  - +add_plugin: TravisYML
+    +before: Git::Tag
+    perl_version: 5.16 5.20
+
+---
+doctype: weaver
+
+plugins:
+  - +config: Author::CSSON
+
+  - +remove_plugin: Splint
