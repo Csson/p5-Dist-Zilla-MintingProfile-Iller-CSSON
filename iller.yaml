@@ -1,0 +1,29 @@
+---
+doctype: dist
+
+header:
+  name: Dist-Zilla-MintingProfile-Iller-CSSON
+
+prereqs:
+  runtime:
+    requires:
+      - perl: 5.016000
+
+plugins:
+  - +config: Author::CSSON
+    installer: ModuleBuild
+  
+  - +add_plugin: TravisYML
+    +before: Git::Tag
+    perl_version: 5.16 5.20
+
+  - +extend_plugin: ShareDir
+    dir: profiles
+
+---
+doctype: weaver
+
+plugins:
+  - +config: Author::CSSON
+
+  - +remove_plugin: Splint
