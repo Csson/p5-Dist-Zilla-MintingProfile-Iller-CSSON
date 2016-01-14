@@ -2,7 +2,7 @@
 
 Dist::Zilla::MintingProfile::Iller::CSSON - CSSON's Dist::Zilla minting profile for Dist::Iller
 
-![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org//.svg?branch=master)](https://travis-ci.org//)
+![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON)
 
 # VERSION
 

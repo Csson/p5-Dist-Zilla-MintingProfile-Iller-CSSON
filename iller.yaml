@@ -8,6 +8,10 @@ prereqs:
   runtime:
     requires:
       - perl: 5.010001
+      - File::ShareDir
+      - Moose: 2.00
+      - Path::Class
+      - namespace::autoclean
 
 plugins:
   - +config: Author::CSSON

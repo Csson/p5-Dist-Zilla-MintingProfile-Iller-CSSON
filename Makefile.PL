@@ -23,7 +23,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.010001",
   "NAME" => "Dist::Zilla::MintingProfile::Iller::CSSON",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "File::ShareDir" => 0,
+    "Moose" => "2.00",
+    "Path::Class" => 0,
+    "namespace::autoclean" => 0
+  },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
@@ -38,8 +43,12 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
+  "File::ShareDir" => 0,
   "File::Spec" => 0,
-  "Test::More" => "0.96"
+  "Moose" => "2.00",
+  "Path::Class" => 0,
+  "Test::More" => "0.96",
+  "namespace::autoclean" => 0
 );
 
 
