@@ -3,15 +3,15 @@
 use strict;
 use warnings;
 
-use Module::Build 0.28;
+use Module::Build 0.3601;
 
 
 my %module_build_args = (
   "build_requires" => {
-    "Module::Build" => "0.28"
+    "Module::Build" => "0.3601"
   },
   "configure_requires" => {
-    "Module::Build" => "0.28"
+    "Module::Build" => "0.3601"
   },
   "dist_abstract" => "CSSON's Dist::Zilla minting profile for Dist::Iller",
   "dist_author" => [
@@ -27,6 +27,9 @@ my %module_build_args = (
     "perl" => "5.010001"
   },
   "script_files" => [],
+  "share_dir" => {
+    "dist" => "profiles"
+  },
   "test_requires" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
@@ -38,7 +41,7 @@ my %module_build_args = (
 my %fallback_build_requires = (
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
-  "Module::Build" => "0.28",
+  "Module::Build" => "0.3601",
   "Test::More" => "0.96"
 );
 
