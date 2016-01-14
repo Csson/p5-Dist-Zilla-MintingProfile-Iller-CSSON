@@ -27,3 +27,17 @@ sub profile_dir {
 __PACKAGE__->meta->make_immutable;
 
 1;
+
+__END__
+
+=pod
+
+=head1 SYNOPSIS
+
+    dzil new -P Iller::CSSON New::Module
+
+=head1 DESCRIPTION
+
+This mints a new distribution prepared for L<Dist::Zilla> via L<Dist::Iller> and L<Dist::Iller::Config::Author::CSSON>.
+
+=cut
