@@ -13,7 +13,7 @@ install_share dist => "profiles";
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "CSSON's Dist::Zilla minting profile for Dist::Iller",
+  "ABSTRACT" => "Minting profile",
   "AUTHOR" => "Erik Carlsson <info\@code301.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
@@ -24,6 +24,8 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.010001",
   "NAME" => "Dist::Zilla::MintingProfile::Iller::CSSON",
   "PREREQ_PM" => {
+    "Carp" => 0,
+    "Dist::Zilla::Role::MintingProfile" => "5.000",
     "File::ShareDir" => 0,
     "Moose" => "2.00",
     "Path::Class" => 0,
@@ -34,7 +36,7 @@ my %WriteMakefileArgs = (
     "File::Spec" => 0,
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.0001",
+  "VERSION" => "0.0101",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,6 +44,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Carp" => 0,
+  "Dist::Zilla::Role::MintingProfile" => "5.000",
   "ExtUtils::MakeMaker" => 0,
   "File::ShareDir" => 0,
   "File::Spec" => 0,
