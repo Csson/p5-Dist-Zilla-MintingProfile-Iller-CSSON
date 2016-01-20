@@ -1,12 +1,12 @@
 # NAME
 
-Dist::Zilla::MintingProfile::Iller::CSSON - CSSON's Dist::Zilla minting profile for Dist::Iller
+Dist::Zilla::MintingProfile::Iller::CSSON - Minting profile
 
-![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON)
+![Requires Perl 5.14+](https://img.shields.io/badge/perl-5.14+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON) 
 
 # VERSION
 
-Version 0.0001, released 2016-01-14.
+Version 0.0101, released 2016-01-20.
 
 # SYNOPSIS
 

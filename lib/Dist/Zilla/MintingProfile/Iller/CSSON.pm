@@ -3,7 +3,7 @@ use warnings;
 package Dist::Zilla::MintingProfile::Iller::CSSON;
 
 # VERSION:
-# ABSTRACT: CSSON's Dist::Zilla minting profile for Dist::Iller
+# ABSTRACT: Minting profile
 
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile';
