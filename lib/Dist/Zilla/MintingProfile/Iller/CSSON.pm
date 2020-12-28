@@ -6,7 +6,7 @@ package Dist::Zilla::MintingProfile::Iller::CSSON;
 
 # ABSTRACT: Minting profile
 # AUTHORITY
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile';
