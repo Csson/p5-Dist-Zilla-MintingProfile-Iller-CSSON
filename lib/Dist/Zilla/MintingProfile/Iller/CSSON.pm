@@ -1,9 +1,12 @@
+use 5.14.0;
 use strict;
 use warnings;
+
 package Dist::Zilla::MintingProfile::Iller::CSSON;
 
-# VERSION:
 # ABSTRACT: Minting profile
+# AUTHORITY
+our $VERSION = '0.0102';
 
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile';
