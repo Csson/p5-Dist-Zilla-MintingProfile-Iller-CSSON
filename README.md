@@ -2,11 +2,17 @@
 
 Dist::Zilla::MintingProfile::Iller::CSSON - Minting profile
 
-![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON) 
+<div>
+    <p>
+    <img src="https://img.shields.io/badge/perl-5.14+-blue.svg" alt="Requires Perl 5.14+" />
+    <img src="https://img.shields.io/badge/coverage-100.0%25-brightgreen.svg" alt="coverage 100.0%" />
+    <a href="https://github.com/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON/actions?query=workflow%3Amakefile-test"><img src="https://img.shields.io/github/workflow/status/Csson/p5-Dist-Zilla-MintingProfile-Iller-CSSON/makefile-test" alt="Build status at Github" /></a>
+    </p>
+</div>
 
 # VERSION
 
-Version 0.0101, released 2016-01-20.
+Version 0.0102, released 2020-12-28.
 
 # SYNOPSIS
 
